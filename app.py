@@ -20,9 +20,9 @@ class App:
             pyxel.quit()
 
         # サウンド設定の修正 (定数を使用)
-        pyxel.sounds[0].set("c2e2g2c3", "T", "7654", "N", 10) # 爆破音
-        pyxel.sounds[1].set("a1f1", "T", "7777", "N", 20)  # 被弾音
-
+        pyxel.sounds[0].set("c3b2a2f2e2d2c2", "N", "7531000", "NFNFNNN", 10)
+        pyxel.sounds[1].set("a1f1", "N", "7777", "N", 20)  # 被弾音
+        
         # 初期シーン設定
         self.scene = SCENE_TITLE
         self.score = 0
